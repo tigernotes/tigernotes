@@ -398,13 +398,12 @@ p.tex{
 /*強調設定*/
 strong{
   font-weight: bold;
-  background-color: yellow;
+  background: linear-gradient(transparent 70%, yellow 20%);
 }
 
 strong.eng{
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  background-color: yellow;
 }
 
 bold{
