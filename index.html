@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>tigerNOTES</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- WEBフォントの実装 -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:700|Roboto:400,500i,700,900&display=swap"
+    rel="stylesheet">
+  <!-- WEBフォントの実装 ここまで -->
+
+  <!-- TeXの実装 -->
+  <script type="text/javascript" async 006
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+      007       </script>
+  <!-- TeXの実装 ここまで -->
+
+  <!-- レスポンシブの実装 -->
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
+
+  <!--【参考URL】
+https://saruwakakun.com/html-css/reference/nav-drawer
+  
+   レスポンシブの実装 ここまで -->
+
+</head>
+
+<body>
+  <header class="headerInner">
+
+
+    <!--タイトルロゴ-->
+
+    <a href="index.html">
+      <div class="title">
+        <div class="logo">tiger</div>
+        <div class="sublogo">N O T E S</div>
+      </div>
+    </a>
+
+    <!--スマホメニュー-->
+
+    <div id="nav-drawer">
+      <input id="nav-input" type="checkbox" class="nav-unshown">
+      <label id="nav-open" for="nav-input"><span></span></label>
+      <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+      <div id="nav-content">
+        <!--ここにメニューの中身を入れる-->
+        <div class="phonemenu">
+          <a href="index.html">
+            <div class="phonemenuHome">
+              <span class="jpn">
+                <bold>ホーム</bold>
+              </span>
+              <span class="eng">
+                <bold class="eng">HOME</bold>
+              </span>
+            </div>
+          </a>
+
+          <a href="notes.html">
+            <div class="phonemenuitem">
+              <span class="jpn">ノート</span>
+              <span class="eng">NOTES</span>
+            </div>
+          </a>
+
+          <a href="about.html">
+            <div class="phonemenuitem">
+              <span class="jpn">紹介</span>
+              <span class="eng">ABOUT</span>
+            </div>
+          </a>
+
+          <a href="contact.html">
+            <div class="phonemenuitem">
+              <span class="jpn">問い合わせ</span>
+              <span class="eng">CONTACT</span>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+
+    <!--パソコンメニュー-->
+    <div class="menu">
+      <a href="index.html">
+        <div class="menuitem">
+          <div class="jpn">ホーム</div>
+          <div class="eng">HOME</div>
+        </div>
+      </a>
+
+      <a href="notes.html">
+        <div class="menuitem">
+          <div class="jpn">ノート</div>
+          <div class="eng">NOTES</div>
+        </div>
+      </a>
+
+      <a href="about.html">
+        <div class="menuitem">
+          <div class="jpn">紹介</div>
+          <div class="eng">ABOUT</div>
+        </div>
+      </a>
+
+
+      <a href="contact.html">
+        <div class="menuitem">
+          <div class="jpn">問い合わせ</div>
+          <div class="eng">CONTACT</div>
+        </div>
+      </a>
+
+
+
+    </div>
+
+  </header>
+
+
+
+
+  <main class="mainInner">
+
+    <div class="welcome">
+    　　<img src="whistler.jpg" alt="ウィスラー" title="ウィスラーwhistler" class="welcomeimg">
+        <h1>
+          ようこそ 
+          <br><italic>WELCOME</italic>
+        </h1>
+    </div>
+
+    <section>
+
+      <h2 class="blue">
+        数式の表示
+      </h2>
+
+      <p>このWebページでは数式の記述に <strong class="eng">TeX</strong>（テフ）を用いています。
+      </p>
+      <p>更に，これをWeb上で表示させる際，<strong class="eng">JavaScript</strong> を利用しています。</p>
+      <p>
+        <underline>
+          <bold>数式の例</bold>
+        </underline>
+      </p>
+      <p class="tex">
+        質量 \(m\) の物体に \(F\) の力をかけると，\(a\) の加速度が生じる：
+        \[
+        ma=F
+        \]
+        \(1234567890\)
+
+      </p>
+
+      <p>
+        文字が小さすぎるなど，数式がうまく表示されない場合は，ページを再読み込みすると解決することがあります。
+      </p>
+
+
+    </section>
+  </main>
+
+  <footer class="footerInner">
+    <p class="eng">Copyright ©2019 Taiga Ozawa. All rights reserved.</p>
+  </footer>
+
+
+</body>
+
+</html>

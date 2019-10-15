@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>tigerNOTES</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- WEBフォントの実装 -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:700|Roboto:400,500i,700,900&display=swap" rel="stylesheet">
+  <!-- WEBフォントの実装 ここまで -->
+
+  <!-- TeXの実装 -->
+  <script type="text/javascript" async 006
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+      007       </script>
+  <!-- TeXの実装 ここまで -->
+
+  <!-- レスポンシブの実装 -->
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
+  <!-- レスポンシブの実装 ここまで -->
+
+</head>
+
+<body>
+  <header class="headerInner">
+
+
+    <!--タイトルロゴ-->
+
+    <a href="index.html">
+      <div class="title">
+        <div class="logo">tiger</div>
+        <div class="sublogo">N O T E S</div>
+      </div>
+    </a>
+
+    <!--スマホメニュー-->
+      
+    <div id="nav-drawer">
+        <input id="nav-input" type="checkbox" class="nav-unshown">
+        <label id="nav-open" for="nav-input"><span></span></label>
+        <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+        <div id="nav-content">
+            <!--ここにメニューの中身を入れる-->
+          <div class="phonemenu">
+              <a href="index.html">
+                  <div class="phonemenuHome">
+                    <span class="jpn"><bold>ホーム</bold></span>
+                    <span class="eng"><bold class="eng">HOME</bold></span>
+                  </div>
+                </a>
+          
+                <a href="notes.html">
+                  <div class="phonemenuitem">
+                      <span class="jpn">ノート</span>
+                      <span class="eng">NOTES</span>
+                  </div>
+                </a>
+          
+                <a href="about.html">
+                  <div class="phonemenuitem">
+                    <span class="jpn">紹介</span>
+                    <span class="eng">ABOUT</span>
+                  </div>
+                </a>
+          
+                <a href="contact.html">
+                  <div class="phonemenuitem">
+                    <span class="jpn">問い合わせ</span>
+                    <span class="eng">CONTACT</span>
+                  </div>
+                </a>
+          
+              </div>
+        </div>
+    </div>
+
+
+<!--パソコンメニュー-->
+    <div class="menu">
+      <a href="index.html">
+        <div class="menuitem">
+          <div class="jpn">ホーム</div>
+          <div class="eng">HOME</div>
+        </div>
+      </a>
+
+      <a href="notes.html">
+        <div class="menuitem">
+          <div class="jpn">ノート</div>
+          <div class="eng">NOTES</div>
+        </div>
+      </a>
+
+      <a href="about.html">
+        <div class="menuitem">
+          <div class="jpn">紹介</div>
+          <div class="eng">ABOUT</div>
+        </div>
+      </a>
+
+
+      <a href="contact.html">
+        <div class="menuitem">
+          <div class="jpn">問い合わせ</div>
+          <div class="eng">CONTACT</div>
+        </div>
+      </a>
+
+
+
+    </div>
+
+  </header>
+  <!-- 
+    
+●●●  ここからメイン　　●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●
+
+-->
+
+
+  <main class="mainInner">
+
+
+    <section class="caution">
+
+      <h2 class="caution">
+        <span>注意&nbsp;</span>
+          <span>
+            <bold class="eng">ATTENTION</bold>
+          </span>
+      </h2>
+
+      <div class="caution">
+        <p class="jpn">このWebページの記事は<strong>書きかけ</strong>です。内容の確かさはご自身でお確かめください。</p>
+        <p class="eng">This page is <strong class="eng">NOT COMPLETED</strong>. Please check the validity of the
+          contents critically.</p>
+      </div>
+
+    </section>
+
+    <div class="allnotes">
+
+    <h1 class="top">ノート一覧</h1>
+
+    <section class="linkzone">
+      <a href="physics.html">
+          <div class="linkzone" id="physics">
+            <h2 class="linktitle">
+              <div>
+                <div class="arrow circle"></div>物理ノート
+              </div>
+            </h2>
+            <p class="linkcontent">物理の学習内容をまとめています。<span class="viewmore">詳しく ></span>
+            </p>
+          </div>
+       </a>
+    </section>
+
+    <section class="linkzone">
+      <a href="pretexts.html">
+          <div class="linkzone" id="pretexts">
+            <h2 class="linktitle">
+              <div>
+                <div class="arrow circle">
+                </div>準備中オンラインテキスト
+                </div>
+            </h2>
+            <p class="linkcontent">準備中のオンラインテキストです。<span class="viewmore">詳しく ></span>
+            </p>
+          </div>
+       </a>
+    </section>
+
+    <section class="linkzone">
+        <a href="travel.html".html">
+            <div class="linkzone" id="travel">
+              <h2 class="linktitle">
+                <div>
+                  <div class="arrow circle">
+                  </div>旅行記
+                  </div>
+              </h2>
+              <p class="linkcontent">海外・国内の旅行記です。<span class="viewmore">詳しく ></span>
+              </p>
+            </div>
+         </a>
+      </section>
+
+      <section class="linkzone">
+          <a href="othernotes.html">
+              <div class="linkzone" id="othernotes">
+                <h2 class="linktitle">
+                  <div>
+                    <div class="arrow circle">
+                    </div>その他
+                    </div>
+                </h2>
+                <p class="linkcontent">その他のノートです。<span class="viewmore">詳しく ></span>
+                </p>
+              </div>
+           </a>
+        </section>
+
+        <section class="linkzone">
+            <a href="404.html">
+                <div class="linkzone" id="page404">
+                  <h2 class="linktitle">
+                    <div>
+                      <div class="arrow circle">
+                      </div>おまけ 404ページ
+                      </div>
+                  </h2>
+                  <p class="linkcontent">指定のページが存在しないときに表示される404ページへリンクします。<span class="viewmore">詳しく ></span>
+                  </p>
+                </div>
+             </a>
+          </section>
+  
+
+    </div>
+
+  </main>
+
+
+  <!-- 
+    
+●●●  メインはここまで　　●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●
+
+-->
+
+
+  <footer class="footerInner">
+    <p class="eng">Copyright ©2019 Taiga Ozawa. All rights reserved.</p>
+  </footer>
+
+
+</body>
+
+</html>
