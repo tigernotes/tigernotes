@@ -175,6 +175,14 @@ main{
   padding-bottom: 200px;
 }
 
+/*現在位置*/
+div.youHere{
+  font-size: 15px;
+}
+
+div.youHere a{
+  color:rgb(0, 26, 255);
+}
 
 /*H1*/
 
@@ -363,6 +371,12 @@ span.viewmore{
 }
 
 /*講座*/
+
+section.linkzonePre {
+   padding-top:20px;
+
+}
+
 h2.linktitlePre{
 
   font-weight: bolder;
@@ -433,11 +447,15 @@ div.caution p{
   line-height: 25px;
 }
 
+div.linkinfo{
+  padding-top: 20px;
+}
+
 p.linkinfo{
   font-size: 15px;
-  margin-top:20px;
+  margin-top:0px;
   margin-bottom:0;
-  line-height: 15px;
+  line-height: 20px;
 }
 
 
@@ -455,7 +473,7 @@ strong{
 
 strong.eng{
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 bold{
@@ -464,7 +482,7 @@ bold{
 
 bold.eng{
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 italic{
