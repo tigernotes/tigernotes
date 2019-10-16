@@ -178,6 +178,8 @@ main{
 /*現在位置*/
 div.youHere{
   font-size: 15px;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 div.youHere a{
@@ -224,7 +226,7 @@ h1.inprogress{
 }
 
 section.inprogress{
-  padding-top: 50px;
+  padding-top: 40px;
   padding-bottom:10px;
 }
 
@@ -302,6 +304,12 @@ h2.linktitle{
   font-size: 18px;
 }
 
+
+section.caution{
+  padding-top:30px;
+  padding-bottom: 30px;
+}
+
 h2.caution{
   background-color:rgb(255, 51, 0);
   border:solid rgb(255, 51, 0);
@@ -309,15 +317,16 @@ h2.caution{
   border-radius: 10px 10px 0px 0px;
   width: 165px;
   color:rgb(255, 255, 255);
-  padding-top: 3px;
+  padding-top: 2px;
   padding-left: 10px;
   padding-bottom:0px;
   margin-bottom:0;
+  line-height: 25px;
   font-size: 18px;
 }
 
 div.caution{
-  margin-top:5;
+  margin-top:0;
   margin-bottom:0;
   padding-left:10px;
   padding-top: 10px;
