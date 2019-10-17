@@ -49,9 +49,13 @@ a.textul{
   text-decoration: underline;
 }
 
-i{
-  font-size:10px;
+i.fas fa-external-link-alt{
+  font-size:12px;
+  color: rgb(0, 26, 255);
+  margin-left: 5px;
+  text-decoration: none;
 }
+
 
 
 /* 段落 */
@@ -107,6 +111,14 @@ bold{
 bold.eng{
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
+}
+
+high{
+  font-weight:700;
+}
+
+high.eng{
+  font-weight: 900;
 }
 
 italic{
@@ -293,6 +305,11 @@ li{
   max-width: 900px;
   }
 
+  div.picinfo{
+    font-size: 15px;
+    text-align: right;
+  }
+
 
 
 /* 現在位置 */
@@ -371,6 +388,75 @@ p.inprogress{
 }
 
 
+/*「紹介ページ」に特有の設定 */
+
+section.siteintro{
+margin-top: 40px;
+margin-bottom: 0;
+padding-bottom:20px;
+}
+
+section.intro{
+margin-top:0px;
+padding-top: 0;
+margin-bottom: 100px;
+}
+
+  section.siteintro h1.siteintro{
+    color: black;
+    padding-bottom: 5px;
+    border-left: solid rgb(241, 177, 0) 10px;
+    border-bottom: solid rgb(241, 177, 0) 2px;
+  }
+
+  section.siteintro h1.siteintro eng{
+    font-size: 30px;
+    font-weight: 400;
+    color:black;
+    padding-bottom: 5px;
+ 
+  }
+  
+  span.logo{
+    background-color: rgba(241, 177, 0, 0);
+    padding-top: 0px;
+    padding-bottom: 6px;
+
+  }
+
+  section.siteintro h1.siteintro high.eng{
+    font-size: 50px;
+    font-weight: 900;
+    color: black;
+  }
+
+  section.siteintro h1.siteintro italic{
+    font-size: 30px;
+    color: black;
+
+  }
+
+
+  p.siteintro high.eng{
+     font-size: 28px;
+  }
+
+
+  h1.intro {
+    padding-top: 10px;
+    color: black;
+    border-left: solid rgb(241, 177, 0) 10px;
+    border-bottom: solid rgb(241, 177, 0) 2px;
+    font-size: 25px;
+    font-weight: 400;
+  }
+
+  p.intro{
+    font-size: 22px;
+  }
+  
+
+
   /* H2 */
 h2{   /* H2に共通の設定 */
   font-size: 20px;
@@ -402,6 +488,26 @@ h2.area{
   background-color: rgb(0, 96, 185);
   border-radius: 8px;
 }
+
+section.toNotes{
+  padding:0;
+  margin-bottom:50px;
+}
+
+h2.toNotes{
+  margin-top:0px;
+  padding :20px 20px 20px 20px;
+  background-color: rgb(241, 177, 0);
+  line-height: 30px;
+  border-radius: 10px;
+  color: black;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.808);
+}
+
+h2.toNotes:hover{
+  background-color: rgb(255, 204, 65);
+}
+  
 
 
 /* H3 */
@@ -850,6 +956,10 @@ h2{
   padding-left: 10px;
 }
 
+h2.toNotes{
+  margin :10px;
+}
+
 p, li{
   line-height: 23px;
 }
@@ -857,6 +967,29 @@ p, li{
 div.youHere{
   font-size: 14px;
 }
+
+
+section.siteintro h1.siteintro eng{
+  font-size: 22px;
+}
+
+section.siteintro h1.siteintro high.eng{
+  font-size: 38px;
+}
+
+section.siteintro h1.siteintro italic{
+  font-size: 22px;
+
+}
+
+h1.intro{
+  font-size: 22px;
+}
+
+p.intro{
+  font-size: 20px;
+}
+
 
 /* 注意セクションの設定 */
 section.caution{
@@ -1057,6 +1190,11 @@ p.linkcontentTra{
 
 div.alltravels{
   padding-bottom: 100px;
+}
+
+div.picinfo{
+  font-size: 10px;
+  text-align: right;
 }
 
 
