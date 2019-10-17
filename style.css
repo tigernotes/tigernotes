@@ -378,7 +378,7 @@ section{
   border-radius: 10px 10px 0px 0px;
   width: 165px;
   color:rgb(255, 255, 255);
-  padding-top: 2px;
+  padding-top: 1px;
   padding-left: 10px;
   padding-bottom:0px;
   margin-bottom:0;
@@ -416,7 +416,7 @@ section{
   font-weight: 700;
   display: flex;
   background-color:none;
-  padding-top: 4px;
+  padding-top: 2px;
   padding-bottom: 5px;
   padding-left: 10px;
   margin-bottom: 0px;
@@ -482,7 +482,7 @@ h2.linktitlePre{
   font-weight: bolder;
   display: flex;
   background-color:none;
-  padding-top: 4px;
+  padding-top: 2px;
   padding-bottom: 5px;
   padding-left: 10px;
   margin-bottom: 0px;
@@ -538,7 +538,7 @@ h2.linktitleTra{
 font-weight: 700;
 display: flex;
 background-color:none;
-padding-top: 4px;
+padding-top: 2px;
 padding-bottom: 5px;
 padding-left: 10px;
 margin-bottom: 0px;
