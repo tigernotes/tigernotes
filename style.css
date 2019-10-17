@@ -968,12 +968,12 @@ margin-bottom: 0px;
 margin-top:0px;
 margin-right:0;
 line-height: 20px;
-background-color:rgb(78, 160, 255);
+background-color:rgba(0, 132, 255, 0.637);
 font-size: 16px;
 }
 
 div.linkzoneTra{
-border:solid  rgb(78, 160, 255) 5px;
+border:solid  rgba(0, 132, 255, 0.637) 5px;
 margin-top:0px;
 padding-top:0px;
 padding-bottom: 0px;
