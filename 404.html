@@ -14,9 +14,18 @@
   <!-- WEBフォントの実装 ここまで -->
 
   <!-- TeXの実装 -->
-  <script type="text/javascript" async 006
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
-      007       </script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ["\\(","\\)"]] } });
+  </script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML">
+    </script>
+  <meta http-equiv="X-UA-Compatible" CONTENT="IE=EmulateIE7" />
+
+  <script type="text/javascript" src="http://domain/dir/MathJax/MyConfig.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML">
+    </script>
   <!-- TeXの実装 ここまで -->
 
   <!-- レスポンシブの実装 -->
@@ -158,7 +167,7 @@
         <li>直接URLを入力された方は，URLに誤りがないか確認します。</li>
         <li>キーワード検索を利用します。</li>
         <li>メインメニュー，またはサイトマップから目的のページを探します。</li>
-        <li>設定のミスの可能性があります。お手数ですが<a class="text" href="contact.html">お問い合わせページ</a>からご連絡いただけますと助かります。
+        <li>設定のミスの可能性があります。お手数ですが<a class="textul" href="contact.html">問い合わせページ</a>からご連絡いただけますと助かります。
         </li>
       </ul>
     </p>

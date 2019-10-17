@@ -13,11 +13,20 @@
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700|Roboto:400,500,500i,900&display=swap&subset=japanese" rel="stylesheet">
         <!-- WEBフォントの実装 ここまで -->
       
-        <!-- TeXの実装 -->
-        <script type="text/javascript" async 006
-          src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
-            007       </script>
-        <!-- TeXの実装 ここまで -->
+       <!-- TeXの実装 -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ["\\(","\\)"]] } });
+  </script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML">
+    </script>
+  <meta http-equiv="X-UA-Compatible" CONTENT="IE=EmulateIE7" />
+
+  <script type="text/javascript" src="http://domain/dir/MathJax/MyConfig.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML">
+    </script>
+  <!-- TeXの実装 ここまで -->
       
         <!-- レスポンシブの実装 -->
         <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">

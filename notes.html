@@ -14,9 +14,18 @@
   <!-- WEBフォントの実装 ここまで -->
 
   <!-- TeXの実装 -->
-  <script type="text/javascript" async 006
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
-      007       </script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ["\\(","\\)"]] } });
+  </script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML">
+    </script>
+  <meta http-equiv="X-UA-Compatible" CONTENT="IE=EmulateIE7" />
+
+  <script type="text/javascript" src="http://domain/dir/MathJax/MyConfig.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML">
+    </script>
   <!-- TeXの実装 ここまで -->
 
   <!-- レスポンシブの実装 -->
@@ -159,7 +168,7 @@
                 <div class="arrow circle"></div>物理ノート
               </div>
             </h2>
-            <p class="linkcontent">物理の学習内容をまとめています。<span class="viewmore">詳しく ></span>
+            <p class="linkcontent">大学の物理の学習内容をまとめています。<span class="viewmore">詳しく ></span>
             </p>
           </div>
        </a>
@@ -210,23 +219,20 @@
            </a>
         </section>
 
-        <section class="linkzone">
-            <a href="nothing.html">
-                <div class="linkzone" id="page404">
-                  <h2 class="linktitle">
-                    <div>
-                      <div class="arrow circle">
-                      </div>おまけ <bold class="eng">404</bold>ページ
-                      </div>
-                  </h2>
-                  <p class="linkcontent">指定のページが存在しないときに表示される<eng>404</eng>ページを表示します。<span class="viewmore">詳しく ></span>
-                  </p>
-                </div>
-             </a>
-          </section>
-  
 
+      
+                <p class="small">おまけ：<a href="nothing.html" class="textul"><eng>404</eng>ページを表示</a></p>
+                
     </div>
+
+    <div class="youHere">
+        <a href="index.html" class="youHere">ホーム</a> > ノート
+      </div>
+  
+      <div class="endspace">
+        <p>end</p>
+      </div>
+  
 
   </main>
 
