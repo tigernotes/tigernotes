@@ -87,6 +87,10 @@ underline{
   text-underline-position: below;
 }
 
+red{
+  color: red;
+}
+
 
 /* リスト */
 ul{
@@ -461,8 +465,17 @@ section{
 
 /*「eノート」のリンクセクションの設定*/
 
+div.allpretexts{
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+
 section.linkzonePre {
-   padding-top:20px;
+   margin-top:20px;
+   margin-bottom:20px;
+   padding-top:0;
+   padding-bottom: 0;
 }
 
 h2.linktitlePre{
@@ -514,6 +527,62 @@ div.linkzonePre:hover{
   background-color: rgb(248, 248, 248);
   color: rgb(0, 0, 0);
 }
+
+
+/*「旅行記」のリンクセクションの設定*/
+section.linkzoneTra{
+  padding-bottom: 10px;
+}
+
+h2.linktitleTra{
+font-weight: 700;
+display: flex;
+background-color:none;
+padding-top: 4px;
+padding-bottom: 5px;
+padding-left: 10px;
+margin-bottom: 0px;
+margin-top:0px;
+margin-right:0;
+line-height: 25px;
+background-color:rgb(78, 160, 255);
+font-size: 18px;
+}
+
+div.linkzoneTra{
+padding-bottom: 0px;
+border:solid  rgb(78, 160, 255) 5px;
+margin-top:0px;
+padding-top:0px;
+padding-bottom: 0px;
+margin-bottom: 10px;
+color: black;
+background-color: rgb(235, 235, 235);
+font-size:16px;
+line-height: 24px;
+border-radius: 0px;
+}
+
+div.linkzoneTra:hover{
+background-color: rgb(248, 248, 248);
+color: rgb(0, 0, 0);
+}
+
+p.linkcontentTra{
+  line-height: 24px;
+}
+
+span.viewmore{  /*「詳しく」の設定 */
+  color: #0077ff;
+  font-size:12px;
+  font-weight:700;
+}
+
+div.alltravels{
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+
 
 
 
@@ -688,7 +757,7 @@ div.menu{
 
 
 @media screen and (max-width: 390px) { 
-  /*ウィンドウ幅が最大374pxまでの場合に適用*/
+  /*ウィンドウ幅が最大390pxまでの場合に適用*/
 
 
 body{
@@ -820,8 +889,16 @@ section.caution{
 
 /*「eノート」のリンクセクションの設定*/
 
-section.linkzonePre {
-   padding-top:20px;
+div.allpretexts{
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+section.linkzonePre{
+  padding-bottom: 0px;
+  padding-top:0px;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 h2.linktitlePre{
@@ -871,6 +948,58 @@ div.linkzonePre p{
 div.linkzonePre:hover{
   background-color: rgb(248, 248, 248);
   color: rgb(0, 0, 0);
+}
+
+
+/*「旅行記」のリンクセクションの設定*/
+section.linkzoneTra{
+  padding-bottom: 0px;
+  margin-bottom: 15px;
+}
+
+h2.linktitleTra{
+font-weight: 700;
+display: flex;
+background-color:none;
+padding-top: 2px;
+padding-bottom: 5px;
+padding-left: 10px;
+margin-bottom: 0px;
+margin-top:0px;
+margin-right:0;
+line-height: 20px;
+background-color:rgb(78, 160, 255);
+font-size: 16px;
+}
+
+div.linkzoneTra{
+border:solid  rgb(78, 160, 255) 5px;
+margin-top:0px;
+padding-top:0px;
+padding-bottom: 0px;
+margin-bottom: 0px;
+color: black;
+background-color: rgb(235, 235, 235);
+font-size:14px;
+line-height: 20px;
+border-radius: 0px;
+}
+
+div.linkzoneTra:hover{
+background-color: rgb(248, 248, 248);
+color: rgb(0, 0, 0);
+}
+
+
+p.linkcontentTra{
+  line-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+div.alltravels{
+  padding-bottom: 100px;
 }
 
 
