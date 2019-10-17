@@ -31,13 +31,13 @@ eng{
 
 .welcome {/*親div*/
   position: relative;
-  padding-bottom: 40px;
+  padding-bottom: 0px;
   }
 
 .welcome h1 {
   position: absolute;
   color: white;/*文字は白に*/
-  top: 30%;
+  top: 50px;
   left: 20px;
   font-size: 30px;
   line-height: 25px;
@@ -254,6 +254,9 @@ div.error{
 h2{
   font-size: 20px;
   line-height: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
 }
 
 h2.red{
@@ -261,9 +264,7 @@ h2.red{
   font-weight: bolder;
   background-color: rgb(230, 228, 228);
   border-left: solid rgb(255, 0, 0) 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
+  
 }
 
 
@@ -272,9 +273,7 @@ h2.yellow{
   font-weight: bolder;
   background-color: rgb(230, 228, 228);
   border-left: solid rgb(241, 177, 0) 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
+  
 }
 
 h2.blue{
@@ -283,9 +282,7 @@ h2.blue{
 
   background-color: rgb(230, 228, 228);
   border-left: solid rgb(0, 96, 185) 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
+  
 }
 
 h2.linktitle{
@@ -589,7 +586,6 @@ https://saruwakakun.com/html-css/reference/nav-drawer
 @media screen and (max-width: 520px) { 
   /*ウィンドウ幅が最大479pxまでの場合に適用*/
 
-
 div.menu{
  display:none;
 }
@@ -677,6 +673,48 @@ div.menu{
 
 
 }
+
+@media screen and (max-width: 374px) { 
+  /*ウィンドウ幅が最大374pxまでの場合に適用*/
+
+
+body{
+  font-size: 15px;
+}
+
+h2{
+  font-size: 18px;
+}
+
+
+.welcome h1 {
+  position: absolute;
+  color: white;/*文字は白に*/
+  top: 30px;
+  left: 10px;
+  font-size: 20px;
+  line-height: 20px;
+  text-shadow: 1px 2px 3px #000000;
+  }
+
+  .welcome h1 italic{
+    margin-left:2px;
+    font-size: 15px;
+  }
+
+  h2{
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+
+}
+
+
+
+
 
 @media screen and (min-width:521px) {
   #nav-drawer {
