@@ -334,7 +334,8 @@ div.caution{
   background-color:none;
   border:solid rgb(255, 51, 0);
   border-radius: 0px 10px 10px 10px;
-  line-height: 30px;
+  line-height: 26px;
+  font-size: 16px;
 }
 
 section{
@@ -345,7 +346,6 @@ section{
 /*本文セクション*/
 section.linkzone{
   padding-bottom: 10px;
-;
 }
 
 
@@ -361,6 +361,7 @@ margin-bottom: 10px;
 color: black;
 background-color: rgb(235, 235, 235);
 font-size:16px;
+line-height: 24px;
 }
 
 div.linkzone:hover{
@@ -383,7 +384,6 @@ span.viewmore{
 
 section.linkzonePre {
    padding-top:20px;
-
 }
 
 h2.linktitlePre{
@@ -414,6 +414,12 @@ div.linkzonePre{
   color: black;
   background-color: rgb(235, 235, 235);
   }
+
+  div.linkzonePre p{
+    font-size: 16px;
+    line-height: 24px;
+  }
+
 div.linkzonePre:hover{
 
   background-color: rgb(248, 248, 248);
@@ -447,6 +453,10 @@ p{
   line-height: 30px;
 }
 
+p.linkcontent{
+  line-height: 24px;
+}
+
 
 
 div.caution p{
@@ -460,8 +470,8 @@ div.linkinfo{
   padding-top: 20px;
 }
 
-p.linkinfo{
-  font-size: 15px;
+div.linkzonePre p.linkinfo{
+  font-size: 14px;
   margin-top:0px;
   margin-bottom:0;
   line-height: 20px;
