@@ -308,6 +308,8 @@ li{
   div.picinfo{
     font-size: 15px;
     text-align: right;
+    padding-bottom: 0;
+    margin-bottom:100px;
   }
 
 
