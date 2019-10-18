@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>tigerNOTES</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- WEBフォントの実装 -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700|Roboto:400,500,500i,900&display=swap&subset=japanese"
+    rel="stylesheet">
+  <!-- WEBフォントの実装 ここまで -->
+
+  <!-- TeXの実装 -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ["\\(","\\)"]] } });
+  </script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML">
+    </script>
+  <meta http-equiv="X-UA-Compatible" CONTENT="IE=EmulateIE7" />
+
+  <script type="text/javascript" src="http://domain/dir/MathJax/MyConfig.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML">
+    </script>
+  <!-- TeXの実装 ここまで -->
+
+  <!-- レスポンシブの実装 -->
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
+  <!-- レスポンシブの実装 ここまで -->
+
+</head>
+
+<body>
+  <header class="headerInner">
+
+
+    <!--タイトルロゴ-->
+
+    <a href="index.html">
+      <div class="title">
+        <div class="logo">tiger</div>
+        <div class="sublogo">N O T E S</div>
+      </div>
+    </a>
+
+    <!--スマホメニュー-->
+
+    <div id="nav-drawer">
+      <input id="nav-input" type="checkbox" class="nav-unshown">
+      <label id="nav-open" for="nav-input"><span></span></label>
+      <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+      <div id="nav-content">
+        <!--ここにメニューの中身を入れる-->
+        <div class="phonemenu">
+          <a href="index.html">
+            <div class="phonemenuHome">
+              <span class="jpn">
+                <bold>ホーム</bold>
+              </span>
+              <span class="eng">
+                <bold class="eng">HOME</bold>
+              </span>
+            </div>
+          </a>
+
+          <a href="notes.html">
+            <div class="phonemenuitem">
+              <span class="jpn">ノート</span>
+              <span class="eng">NOTES</span>
+            </div>
+          </a>
+
+          <a href="about.html">
+            <div class="phonemenuitem">
+              <span class="jpn">紹介</span>
+              <span class="eng">ABOUT</span>
+            </div>
+          </a>
+
+          <a href="contact.html">
+            <div class="phonemenuitem">
+              <span class="jpn">問い合わせ</span>
+              <span class="eng">CONTACT</span>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+
+    <!--パソコンメニュー-->
+    <div class="menu">
+      <a href="index.html">
+        <div class="menuitem">
+          <div class="jpn">ホーム</div>
+          <div class="eng">HOME</div>
+        </div>
+      </a>
+
+      <a href="notes.html">
+        <div class="menuitem">
+          <div class="jpn">ノート</div>
+          <div class="eng">NOTES</div>
+        </div>
+      </a>
+
+      <a href="about.html">
+        <div class="menuitem">
+          <div class="jpn">紹介</div>
+          <div class="eng">ABOUT</div>
+        </div>
+      </a>
+
+
+      <a href="contact.html">
+        <div class="menuitem">
+          <div class="jpn">問い合わせ</div>
+          <div class="eng">CONTACT</div>
+        </div>
+      </a>
+
+
+
+    </div>
+
+  </header>
+  <!-- 
+    
+●●●  ここからメイン　　●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●
+
+-->
+
+
+  <main class="mainInner">
+
+
+    <div class="youHere">
+      <a href="index.html" class="youHere">ホーム</a> > <a href="notes.html" class="youHere">ノート</a>
+      > <a href="physics.html" class="youHere">物理ノート</a> > 運動学
+    </div>
+
+
+    <div class="etext">
+
+
+      <section class="caution">
+
+        <h2 class="caution">
+          <span>注意&nbsp;</span>
+          <span>
+            <bold class="eng">ATTENTION</bold>
+          </span>
+        </h2>
+
+        <div class="caution">
+          <p class="jpn">このノートはまだ <strong>書きかけ</strong> です。不正確な記述があります。
+            <br>説明の形式をとってはいますが，制作者自身の理解が目的のノートです。</p>
+          <p>
+            <bold>... 人に説明しようとすることで，理解が深まることがある。</bold>
+          </p>
+        </div>
+
+      </section>
+
+
+      <h1 class="etextsec">運 動 学</h1>
+
+      <p>力学という学問分野の目標を理解し，まずは運動学と呼ばれる内容を学びましょう．</p>
+
+      <section class="etextgoal">
+        <h2 class="etextgoal">この節で学ぶこと</h2>
+        <div class="etextgoal">
+          <ul>
+            <li>ニュートン力学とは</li>
+            <li>力学の目標</li>
+            <li>物体の位置の指定</li>
+            <li>座標と座標系</li>
+            <li>デカルト座標系</li>
+            <li>位置ベクトル</li>
+            <li>運動学 : 物体の位置，速度，加速度</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="blue">ニュートン力学とは</h2>
+        <p>
+          これから学ぶ初等力学は，<strong> ニュートン力学 </strong>（<eng>Newtonian mechanics</eng>）と呼ばれる分野です．17世紀の自然哲学者ニュートンが整備した学問だからです．
+        </p>
+        <p>
+          17世紀当時の問題意識に思いを馳せてみましょう．
+        </p>
+        <p>
+          ニュートン以前の時代，月が地球の周りを回っていること，地球が太陽の周りを回っていることなどは，観測によって十分高い精度で知られていました．
+          <br>しかし，天体の正確な軌道を予測することはできず，なぜ天体が円形（あるいは楕円形）の軌道を描いて運動しているか，その理由もわかりませんでした．
+        </p>
+        <p>
+          一方，地上でも，斜方投射した物体（例えば大砲など）がどのような軌道を描いて地面に落下するのかを計算することは，未解決の課題でした．
+        </p>
+        <p>そしてこれら<bold>〈天体の問題〉</bold>と<bold>〈地上の物体の問題〉</bold>は，別々のものとして考えられていました．
+          <br>しかし驚いたことに，ニュートンはこの２つの問題を同時に解決してしまいます．
+        </p>
+        <p>
+          <blue>
+            <bold>ニュートン力学は〈天体の問題〉と〈地上の物体の問題〉を同時に説明する理論</bold>
+          </blue>なのです．
+        </p>
+      </section>
+
+      <section>
+        <h2 class="blue">力学の目標</h2>
+        <p>
+          〈天体の問題〉にしても〈地上の物体の問題〉にしても，共通しているのは物体の未来の軌道を求めたいということです．（今後は天体も物体の一種だと考えます．）
+        </p>
+
+        <p>
+          つまり，<blue>
+            <bold>力学の目標は，物体の未来の位置や運動状態を予測することである</bold>
+          </blue>といえます．
+        </p>
+
+        <p>理論が予言する未来がどの程度実験や観測に一致するかで，理論の信憑性が決まります．
+          <br>そして，ニュートン力学は数々の実験や観測によるテストに耐えてきました．
+        </p>
+        <p>
+          <blue>
+            <bold>ニュートン力学は，かなり高い精度でこの世界の物体の運動を説明することができるのです</bold>
+          </blue>．
+        </p>
+
+        <p class="small">
+          だからニュートン力学は，万能で文句の付け所のない科学です．
+          <br>
+          20世紀になって人類が〈ミクロな世界の物理〉に足を踏み入れてしまうまでは...（→ 量子論）．
+        </p>
+
+      </section>
+
+      <section>
+        <h2 class="blue">物体の位置の指定</h2>
+        <p>
+          1つ上の項目で，<blue>
+            <bold>力学の目標は，物体の未来の位置や運動状態を予測することである</bold>
+          </blue>
+          と書きました．
+        </p>
+
+        <p>ここで，物体の運動状態とは速度のことです．
+          <br>力学では，物体の位置と速度以外の情報，例えば温度や色などといった情報はひとまず無視します．このように一部の要素に注目して現象を図式化，抽象化して考えることを<strong> モデル化 </strong>（<eng>modeling</eng>）といいます．
+        </p>
+
+        <p>それではまず，物体の位置を表現する方法を考えましょう．「大体あのへん」とかではなくて，物体の位置を細かく指定する方法です．</p>
+
+      </section>
+      
+      <section>
+        <h2 class="blue">座標と座標系</h2>
+
+        <p>そこで，<strong> 座標 </strong>（<eng>coordinates</eng>）を導入します．座標とは，位置を指定する数の組のことです．</p>
+
+        <div class="ex">
+            <span class="ex">例1</span>
+            <underline>
+              2次元「直交座標系」の座標
+            </underline>
+            <p>
+              平面上のある点を<strong> 原点（基準点） </strong>(<eng>origin</eng>) として設定します．
+              <br>原点を通り，互いに垂直な平面上の2直線をとり，$x$ 軸，$y$ 軸とします．
+              <br>すると，この平面上の<bold>全ての点</bold>は，$(x, y)$ という2つの実数の組で完全に指定できます．
+              <br>この $(x, y)$ という数の組が「座標」です．
+            </p>
+            <div class="end">■</div>
+          </div>
+
+
+          <p><strong>&nbsp;座標系 </strong>（<eng>coordinate system</eng>）とは何でしょうか？ 例えば上の <span class="ex">例1</span>では，「直交座標系」という座標系を使っています．
+            <br>座標系を理解するために次のようなことを考えてみます．
+        </p>
+        <p>直交座標系において $(1, 1)$ という座標で表される点をAとします．他の座標系を使ったとき（例えば「斜交座標系」や「極座標系」を使ったとき），点Aは同じ座標 $(1, 1)$ で表されるでしょうか？ 
+          <br>答えは No です．例えばある極座標系を用いれば，点Aは $(\sqrt{2}, \pi /4)$ という座標で表されたりします．</p>
+          
+          <p>このように物体の位置は，数の組「座標」で指定されますが，同じ点でも座標系が違うと数の組は変わってしまいます．
+          </p>
+            <p>したがって，<blue><bold>どの座標系を使うかを決め，その上で座標を指定することによって，物体の位置を完全に指定できる</bold></blue>というわけです．
+
+            </p>
+
+      </section>
+
+      <section>
+          <h2 class="blue">デカルト座標系</h2>
+          <p>
+            上で見たようにさまざまな座標系を考えることができますが，今後しばらくの間，必要に迫られるまでは，<strong> 3次元直交座標系 </strong>（<eng>3d rectangular coordinate system</eng>）を使うことにしましょう．
+          </p>
+          <p>
+            これは，空間上に原点（基準点）を設定し，原点を通り互いに直交する3直線を $x$ 軸，$y$ 軸，$z$ 軸とする座標系です．
+            <br>
+            空間上の<bold>全ての点</bold>は，$(x, y, z)$ の組（座標）で指定できます．
+          </p>
+
+          <p>直交座標系は，別名<strong> デカルト座標系 </strong>（<eng>Cartesian coordinate system</eng>）ともいいます．
+          <br>デカルトは，部屋を飛んでいるハエを見て，この座標系を思いついたという逸話（真偽不明）があります．
+        </p>
+
+        </section>
+
+        <section>
+          <h2 class="blue">位置ベクトル</h2>
+          <p>
+            ここでいう<strong> ベクトル </strong>（<eng>vector</eng>）は大きさと向きを持つ量です．
+            <br>実は「大きさと向きを持つ」だけではベクトルとはいえないのですが，ここでは深入りしません．
+            <br>（このことに関する別記事を書く予定です．）
+          </p>
+
+          <p>ベクトルは矢印（有向線分）で表現することができます．
+            原点Oから空間上の任意の点Aに向かって引いた矢印 $\overrightarrow{ \rm{OA} }$は，点Aの位置ベクトルとよばれます．
+          </p>
+
+          <p>今後ベクトルは，太字を用いて $\boldsymbol{a}$ のように表すことにします．</p>
+
+          <p>3次元直交座標系において，空間上のある点Pの座標が $(x,y,z)$ であるとします．
+            <br>点Pの位置ベクトル $\boldsymbol{r}$ は，点Pの座標と対応させて次のように成分表示させることができます：
+            \[
+            \boldsymbol{r} = (x, y, z), \ \ 
+            \boldsymbol{r} =\left(
+              \begin{array}{c}
+                x \\
+                y \\
+                z
+              \end{array}
+            \right).
+            \]
+          </p>
+
+          <p>
+            原点を設定したら，空間上の<bold>全ての点</bold>に対して位置ベクトルが定まります．
+            <br><blue><bold>空間上の1つの点を指定する位置ベクトルは，必ず1つに定まります</bold></blue>．
+          </p>
+
+        </section>
+
+        <section>
+          <h2 class="blue">運動学：物体の位置，速度，加速度</h2>
+        </section>
+
+    </div>
+
+    <div class="youHere">
+      <a href="index.html" class="youHere">ホーム</a> > <a href="notes.html" class="youHere">ノート</a>
+      > <a href="physics.html" class="youHere">物理ノート</a> > 運動学
+    </div>
+
+    <div class="endspace">
+      <p>end</p>
+    </div>
+
+
+  </main>
+
+
+  <!-- 
+    
+●●●  メインはここまで　　●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●
+
+-->
+
+
+  <footer class="footerInner">
+    <p class="eng">Copyright ©2019 Taiga Ozawa. All rights reserved.</p>
+  </footer>
+
+
+</body>
+
+</html>

@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>tigerNOTES</title>
-        <link rel="stylesheet" href="normalize.css">
-        <link rel="stylesheet" href="style.css">
-      
-        <!-- WEBフォントの実装 -->
-        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700|Roboto:400,500,500i,900&display=swap&subset=japanese" rel="stylesheet">
-        <!-- WEBフォントの実装 ここまで -->
-      
-        <!-- TeXの実装 -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>tigerNOTES</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- WEBフォントの実装 -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700|Roboto:400,500,500i,900&display=swap&subset=japanese"
+    rel="stylesheet">
+  <!-- WEBフォントの実装 ここまで -->
+
+  <!-- TeXの実装 -->
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ["\\(","\\)"]] } });
   </script>
@@ -27,111 +29,115 @@
     src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML">
     </script>
   <!-- TeXの実装 ここまで -->
-      
-        <!-- レスポンシブの実装 -->
-        <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
-        <!-- レスポンシブの実装 ここまで -->
-      
 
-        <!-- アイコンの実装 -->
+  <!-- レスポンシブの実装 -->
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
+  <!-- レスポンシブの実装 ここまで -->
+
+
+  <!-- アイコンの実装 -->
   <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet">
   <!-- アイコンの実装 ここまで -->
 
-      </head>
-      
-      <body>
-        <header class="headerInner">
-      
-      
-        <!--タイトルロゴ-->
-      
+</head>
+
+<body>
+  <header class="headerInner">
+
+
+    <!--タイトルロゴ-->
+
+    <a href="index.html">
+      <div class="title">
+        <div class="logo">tiger</div>
+        <div class="sublogo">N O T E S</div>
+      </div>
+    </a>
+
+    <!--スマホメニュー-->
+
+    <div id="nav-drawer">
+      <input id="nav-input" type="checkbox" class="nav-unshown">
+      <label id="nav-open" for="nav-input"><span></span></label>
+      <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+      <div id="nav-content">
+        <!--ここにメニューの中身を入れる-->
+        <div class="phonemenu">
           <a href="index.html">
-            <div class="title">
-              <div class="logo">tiger</div>
-              <div class="sublogo">N O T E S</div>
+            <div class="phonemenuHome">
+              <span class="jpn">
+                <bold>ホーム</bold>
+              </span>
+              <span class="eng">
+                <bold class="eng">HOME</bold>
+              </span>
             </div>
           </a>
-      
-          <!--スマホメニュー-->
-      
-          <div id="nav-drawer">
-              <input id="nav-input" type="checkbox" class="nav-unshown">
-              <label id="nav-open" for="nav-input"><span></span></label>
-              <label class="nav-unshown" id="nav-close" for="nav-input"></label>
-              <div id="nav-content">
-                  <!--ここにメニューの中身を入れる-->
-                <div class="phonemenu">
-                    <a href="index.html">
-                        <div class="phonemenuHome">
-                          <span class="jpn"><bold>ホーム</bold></span>
-                          <span class="eng"><bold class="eng">HOME</bold></span>
-                        </div>
-                      </a>
-                
-                      <a href="notes.html">
-                        <div class="phonemenuitem">
-                            <span class="jpn">ノート</span>
-                            <span class="eng">NOTES</span>
-                        </div>
-                      </a>
-                
-                      <a href="about.html">
-                        <div class="phonemenuitem">
-                          <span class="jpn">紹介</span>
-                          <span class="eng">ABOUT</span>
-                        </div>
-                      </a>
-                
-                      <a href="contact.html">
-                        <div class="phonemenuitem">
-                          <span class="jpn">問い合わせ</span>
-                          <span class="eng">CONTACT</span>
-                        </div>
-                      </a>
-                
-                    </div>
-              </div>
-          </div>
-      
-      
-      <!--パソコンメニュー-->
-          <div class="menu">
-            <a href="index.html">
-              <div class="menuitem">
-                <div class="jpn">ホーム</div>
-                <div class="eng">HOME</div>
-              </div>
-            </a>
-      
-            <a href="notes.html">
-              <div class="menuitem">
-                <div class="jpn">ノート</div>
-                <div class="eng">NOTES</div>
-              </div>
-            </a>
-      
-            <a href="about.html">
-              <div class="menuitem">
-                <div class="jpn">紹介</div>
-                <div class="eng">ABOUT</div>
-              </div>
-            </a>
-      
-      
-            <a href="contact.html">
-              <div class="menuitem">
-                <div class="jpn">問い合わせ</div>
-                <div class="eng">CONTACT</div>
-              </div>
-            </a>
-      
-      
-      
-          </div>
-      
-        </header>
 
-<!-- 
+          <a href="notes.html">
+            <div class="phonemenuitem">
+              <span class="jpn">ノート</span>
+              <span class="eng">NOTES</span>
+            </div>
+          </a>
+
+          <a href="about.html">
+            <div class="phonemenuitem">
+              <span class="jpn">紹介</span>
+              <span class="eng">ABOUT</span>
+            </div>
+          </a>
+
+          <a href="contact.html">
+            <div class="phonemenuitem">
+              <span class="jpn">問い合わせ</span>
+              <span class="eng">CONTACT</span>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+
+    <!--パソコンメニュー-->
+    <div class="menu">
+      <a href="index.html">
+        <div class="menuitem">
+          <div class="jpn">ホーム</div>
+          <div class="eng">HOME</div>
+        </div>
+      </a>
+
+      <a href="notes.html">
+        <div class="menuitem">
+          <div class="jpn">ノート</div>
+          <div class="eng">NOTES</div>
+        </div>
+      </a>
+
+      <a href="about.html">
+        <div class="menuitem">
+          <div class="jpn">紹介</div>
+          <div class="eng">ABOUT</div>
+        </div>
+      </a>
+
+
+      <a href="contact.html">
+        <div class="menuitem">
+          <div class="jpn">問い合わせ</div>
+          <div class="eng">CONTACT</div>
+        </div>
+      </a>
+
+
+
+    </div>
+
+  </header>
+
+  <!-- 
     
 ●●●  ここからメイン　　●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●
 
@@ -140,58 +146,74 @@
 
   <main class="mainInner">
 
-      <div class="youHere">
-          <a href="index.html" class="youHere">ホーム</a> > 紹介
-      </div>
- 
+    <div class="youHere">
+      <a href="index.html" class="youHere">ホーム</a> > 紹介
+    </div>
 
-   <section class="siteintro">
-     <h1 class="siteintro">
-       <eng>About</eng><span class="logo"><high class="eng">tiger</high><italic>NOTES</italic></span>
-     </h1>
 
-     <p class="siteintro">
-         <high class="eng">tiger</high><italic>NOTES</italic> は，物理・教育・旅行・デザインなどの分野のノートを公開するウェブサイトです。
-    <br>
+    <section class="siteintro">
+      <h1 class="siteintro">
+        <eng>About</eng><span class="logo">
+          <high class="eng">tiger</high><italic>NOTES</italic>
+        </span>
+      </h1>
+
+      <p class="siteintro">
+        <high class="eng">tiger</high><italic>NOTES</italic> は，物理・教育・旅行・デザインなどの分野のノートを公開するウェブサイトです。
+        <br>
         今後内容を充実，拡大させていく予定です。
       </p>
 
       <p class="siteintro">
-          <high class="eng">tiger</high><italic>NOTES</italic> <eng>is a web site where notes are available on physics, education, travel, design and others.</eng>
-       </p>
-   </section>
+        <high class="eng">tiger</high><italic>NOTES</italic>
+        <eng>is a web site where notes are available on physics, education, travel, design and others.</eng>
+      </p>
+    </section>
 
-   <section class="intro">
+    <section class="intro">
       <h1 class="intro">
         著者紹介 <eng>About Author</eng>
       </h1>
- 
+
       <p class="intro">
-         <bold>小沢 泰河</bold> <bold class="eng">Taiga Ozawa</bold>
-        </p>
-        <p>
-          ［ツイッター<eng> Twitter］<br>
-          　</eng><a href="https://twitter.com/taigaozawa" class="text"><eng>@taigaozawa </eng><i class="fab fa-twitter"></i></a> 
-       <br>
-       ［メール<eng> Mail</eng>］<br>　<eng>tigernotes_contact</eng>◉<eng>gmail.com</eng> （"◉"を"@"に変えてください。）
-        </p>
+        <bold>小沢 泰河</bold>
+        <bold class="eng">Taiga Ozawa</bold>
+      </p>
+
+      <div class="mail"><eng>E</eng>メール<eng> e-mail</eng>：
+        <eng> <tigernotes_contact@gmail class="com">tigernotes_contact◉gmail.com</eng>
+  <small>
+    <br>（"◉"を"@"に変えてください。<eng>Change "◉" into "@".</eng>）
+  </small>
+</div>
+
+      <div class="twitter">
+        　<a href="https://twitter.com/taigaozawa" class="text">
+          <span class="twitter">
+            <eng><i class="fab fa-twitter"></i> Twitter @taigaozawa</eng>
+          </span>
+        </a>
+      </div>
+      <br>
+      
+
     </section>
- 
+
 
     <div class="youHere">
-        <a href="index.html" class="youHere">ホーム</a> > 紹介
-      </div>
-  
-      <div class="endspace">
-        <p>end</p>
-      </div>
-  
+      <a href="index.html" class="youHere">ホーム</a> > 紹介
+    </div>
+
+    <div class="endspace">
+      <p>end</p>
+    </div>
+
 
 
   </main>
 
 
-<!-- 
+  <!-- 
     
 ●●●  メインはここまで　　●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●
 
