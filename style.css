@@ -860,11 +860,12 @@ div.pagenext{
   text-align: center;
   margin-top: 50px;
   margin-bottom: 30px;
+  font-size:15px;
 }
 
 div.pagenext span{
-  padding: 10px;
-  margin:10px;
+  padding: 5px;
+  margin:2px;
   background-color: rgb(255, 255, 255);
   border: solid rgb(0, 64, 255) 1px;
   color: rgb(0, 64, 255)  ;
@@ -1048,6 +1049,14 @@ div.menu{
   box-shadow: 6px 0 25px rgba(0,0,0,.15);
 }
 
+div.pagenext{
+  font-size: 12px;
+}
+
+div.pagenext span{
+  padding:5px;
+  margin:1px;
+}
 }
 
 
