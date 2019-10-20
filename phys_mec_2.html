@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>tigerNOTES</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- WEBフォントの実装 -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700|Roboto:400,500,500i,900&display=swap&subset=japanese"
+    rel="stylesheet">
+  <!-- WEBフォントの実装 ここまで -->
+
+  <!-- TeXの実装 -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ["\\(","\\)"]] } });
+  </script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML">
+    </script>
+  <meta http-equiv="X-UA-Compatible" CONTENT="IE=EmulateIE7" />
+
+  <script type="text/javascript" src="http://domain/dir/MathJax/MyConfig.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML">
+    </script>
+  <!-- TeXの実装 ここまで -->
+
+  <!-- レスポンシブの実装 -->
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
+  <!-- レスポンシブの実装 ここまで -->
+
+</head>
+
+<body>
+  <header class="headerInner">
+
+
+    <!--タイトルロゴ-->
+
+    <a href="index.html">
+      <div class="title">
+        <div class="logo">tiger</div>
+        <div class="sublogo">N O T E S</div>
+      </div>
+    </a>
+
+    <!--スマホメニュー-->
+
+    <div id="nav-drawer">
+      <input id="nav-input" type="checkbox" class="nav-unshown">
+      <label id="nav-open" for="nav-input"><span></span></label>
+      <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+      <div id="nav-content">
+        <!--ここにメニューの中身を入れる-->
+        <div class="phonemenu">
+          <a href="index.html">
+            <div class="phonemenuHome">
+              <span class="jpn">
+                <bold>ホーム</bold>
+              </span>
+              <span class="eng">
+                <bold class="eng">HOME</bold>
+              </span>
+            </div>
+          </a>
+
+          <a href="notes.html">
+            <div class="phonemenuitem">
+              <span class="jpn">ノート</span>
+              <span class="eng">NOTES</span>
+            </div>
+          </a>
+
+          <a href="about.html">
+            <div class="phonemenuitem">
+              <span class="jpn">紹介</span>
+              <span class="eng">ABOUT</span>
+            </div>
+          </a>
+
+          <a href="contact.html">
+            <div class="phonemenuitem">
+              <span class="jpn">問い合わせ</span>
+              <span class="eng">CONTACT</span>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+
+    <!--パソコンメニュー-->
+    <div class="menu">
+      <a href="index.html">
+        <div class="menuitem">
+          <div class="jpn">ホーム</div>
+          <div class="eng">HOME</div>
+        </div>
+      </a>
+
+      <a href="notes.html">
+        <div class="menuitem">
+          <div class="jpn">ノート</div>
+          <div class="eng">NOTES</div>
+        </div>
+      </a>
+
+      <a href="about.html">
+        <div class="menuitem">
+          <div class="jpn">紹介</div>
+          <div class="eng">ABOUT</div>
+        </div>
+      </a>
+
+
+      <a href="contact.html">
+        <div class="menuitem">
+          <div class="jpn">問い合わせ</div>
+          <div class="eng">CONTACT</div>
+        </div>
+      </a>
+
+
+
+    </div>
+
+  </header>
+  <!-- 
+    
+●●●  ここからメイン　　●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●
+
+-->
+
+
+  <main class="mainInner">
+
+
+    <div class="youHere">
+      <a href="index.html" class="youHere">ホーム</a> > <a href="notes.html" class="youHere">ノート</a>
+      > <a href="physics.html" class="youHere">物理ノート</a> > 運動学
+    </div>
+
+
+    <div class="etext">
+
+        <section class="caution">
+
+            <h2 class="caution">
+              <span>注意&nbsp;</span>
+              <span>
+                <bold class="eng">ATTENTION</bold>
+              </span>
+            </h2>
+    
+            <div class="caution">
+              <p class="jpn">このノートはまだ <strong>書きかけ</strong> です。不正確な記述があります。
+                <br>説明の形式をとってはいますが，制作者自身の理解が目的のノートです。</p>
+              <p>
+                <bold>（人に説明しようとすることで，理解が深まることがあるので）</bold>
+              </p>
+            </div>
+    
+          </section>
+
+          <div class="pagenext">
+            <a href="phys_mec_1.html"><span>< 前のページへ</span></a>
+            <a href="physics.html"><span>目次に戻る</span></a>
+            <a href="phys_mec_3.html"><span>次のページへ ></span></a>
+          </div>
+
+
+      <h1 class="etextsec">運 動 学</h1>
+
+      <p>力学を理解するためには不可欠な，運動学と呼ばれる内容を扱います．</p>
+
+      <section class="etextgoal">
+        <h2 class="etextgoal">この節で学ぶこと</h2>
+        <div class="etextgoal">
+          <ul>
+            <li>関数とは</li>
+            <li>物体の位置は時刻の関数</li>
+            <li>微分とは</li>
+            <li>積分とは</li>
+            <li>微分積分学の基本定理</li>
+            <li>運動学：物体の位置，速度，加速度</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="blue">関数</h2>
+
+        <p>
+          <strong>&nbsp;関数 </strong>（<eng>fundtion</eng>）とは，<bold><blue>値を1つ入力すると，それに対応する値を１つだけ出力するものです</blue></bold>．</p>
+
+          <p>どういう意味でしょうか？ これからひとつひとつ説明していきます．</p>
+
+          <p>「関数」という名前をしていますが，何かの数を表しているわけではありません．
+            <br>実はこの「関数」という言葉．英語の<eng> function </eng>を中国語に音訳し，それをただ日本語にしただけなのです．だからちょっと発音が似ています．「ファンクション」と「カンスウ」です．</p>
+
+            <p>そういう成り立ちですから，漢字の意味はあまり気にしないでください．
+              <br>それでは，上で述べた定義の意味を説明していきます．
+            </p>
+            <br>
+        <div class="center">◇　◇　◇</div><br>
+            <p>たとえば，
+              \[
+              f(x)=x^2
+              \]
+              は「$x$ の関数」となります．
+              <br>$f(x)$に $x=3$ を代入することは $f(3)$ と表記します．右辺は $3^2$ つまり $9$ となりますから，
+              \[
+              f(3)=9
+              \]
+              です．
+            </p>
+
+            <p>さて，私たちはこの関数 $f(x)$ に，$3$ を代入（入力）しましたが，関数 $f(x)$ はその結果として1つの値 $9$ という結果を出力しています．</p>
+
+            <p>このように，<bold><blue>変数 $x$ を入力すると，対応した値 $y$ をただ１つ出力するものを $x$ の関数という</blue></bold>のです．</p>
+<br>
+            <div class="center">◇　◇　◇</div><br>
+
+            <p>この $x$ や $y$ は，数字でなくても構いません．<br>変数として「<bold>りんご</bold>」という文字列があり，これを入力すると必ず「<bold>ひこうき</bold>」と出力する規則があったとします．
+              <br>全くもって意味不明ですが，これも関数です．
+              <br>ある値を入力したとき，対応した値をただ1つ出力するという関数の定義を満たしているからです．
+            </p>
+
+            <br>
+            <div class="center">◇　◇　◇</div><br>
+
+
+            <p>また，<bold><blue>関数の内部構造はブラックボックスであっても構いません．</blue></bold>
+            <br>$f(x)= ...$ の形に関数の表式が求まる場合に慣れていると，勘違いしやすいのですが，表式が求まることは関数であるための必要条件ではありません．</p>
+
+            <p>あくまで，<bold><blue>1つの入力する値に対して出力する値がただ1つに決まっている，という〈規則〉が関数の本質なのです</blue></bold>．</p>
+
+      </section>
+
+      <section>
+        <h2 class="blue">物体の位置は時刻の関数</h2>
+      </section>
+
+      <section>
+        <h2 class="blue">微分とは</h2>
+      </section>
+
+      <section>
+        <h2 class="blue">積分とは</h2>
+      </section>
+
+      <section>
+        <h2 class="blue">微分積分学の基本定理</h2>
+      </section>
+
+      <section>
+        <h2 class="blue">運動学：物体の位置，速度，加速度</h2>
+      </section>
+
+      <section>
+        <h2 class="yellow">この節のまとめ</h2>
+        <p>今回は，
+            <ul><bold>
+                <li>関数とは</li>
+                <li>物体の位置は時刻の関数</li>
+                <li>微分とは</li>
+                <li>積分とは</li>
+                <li>微分積分学の基本定理</li>
+                <li>運動学：物体の位置，速度，加速度</li>
+              </bold>
+              </ul>
+          を学びました．
+        </p>
+        
+
+      </section>
+      <section>
+        <div class="pagenext">
+          <a href="phys_mec_1.html"><span>< 前のページへ</span></a>
+          <a href="physics.html"><span>目次に戻る</span></a>
+          <a href="phys_mec_3.html"><span>次のページへ ></span></a>
+        </div>
+      </section>
+
+      <div class="endspace">
+        <p>end</p>
+      </div>
+
+
+    </div>
+
+    <div class="youHere">
+      <a href="index.html" class="youHere">ホーム</a> > <a href="notes.html" class="youHere">ノート</a>
+      > <a href="physics.html" class="youHere">物理ノート</a> > 運動学
+    </div>
+
+    <div class="endspace">
+      <p>end</p>
+    </div>
+
+
+  </main>
+
+
+  <!-- 
+    
+●●●  メインはここまで　　●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●
+
+-->
+
+
+  <footer class="footerInner">
+    <p class="eng">Copyright ©2019 Taiga Ozawa. All rights reserved.</p>
+  </footer>
+
+
+</body>
+
+</html>
