@@ -28,6 +28,7 @@
   <script type="text/javascript"
     src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML">
     </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
   <!-- TeXの実装 ここまで -->
 
   <!-- レスポンシブの実装 -->
@@ -269,12 +270,12 @@
 
       <p>位置ベクトルは，成分表示をしたり，基底ベクトルの実数倍の和で表したりすることを前回学びました．
         <br>位置ベクトルの成分もまた $t$ の関数ですから，次のように表すことができます：
-        \[
-        begin{align}
-        \boldsymbol{r}(t) = x(t)\boldsymbol{e}_x + y(t)\boldsymbol{e}_x + z(t)\boldsymbol{e}_x \\
-        =(x(t), y(t), z(t),).
-        end{align}
-        \]
+        
+   \begin{align}
+        \boldsymbol{r}(t) &=(x(t), y(t), z(t)) \\
+        \\
+        &= x(t)\ \boldsymbol{e}_x + y(t)\ \boldsymbol{e}_y + z(t)\ \boldsymbol{e}_z  
+        \end{align}
       </p>
 
     </section>
