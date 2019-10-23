@@ -176,6 +176,61 @@ https://saruwakakun.com/html-css/reference/nav-drawer
     </a>
     </section>
 
+
+    <section>
+
+        <h2 class="blue">
+          数式の表示
+        </h2>
+  
+        <p>このウェブサイトは，数式を扱っています。
+          <br>数式の表示には <strong class="eng">MathJax</strong> を利用しています。</p>
+          <p class="eng">文字が小さすぎるなど数式がうまく表示されない場合は，<bold>ページを再読み込みすると解決する</bold>ことがあります。
+            <br>下の例で表示を確認してください。
+        </p>
+        <p>
+          <eng>MathJax</eng> では，<strong class="eng">TeX</strong>（テフ）のコマンドを用いて<eng> HTML </eng>ファイル
+          内に数式を記述します。
+          <br>数式はクライアントサイドの <strong class="eng">JavaScript</strong> によって表示されます。
+        </p>
+  
+        <br>
+  
+        <div class="ex">
+          <span class="ex">例</span>
+          <underline>
+            <eng>MathJax</eng>による数式の表示
+          </underline>
+  
+          <p class="ex">
+            質量 \(m\) の物体に力 \(F\) をかけると，加速度 \(a\) が生じる：
+            \[
+            ma=F.\tag{1}
+            \]
+          </p>
+  
+          <p class="ex">
+            太字の表示もできます： \( {abcde,}\) \( \bf{abcde}\), \( \boldsymbol{abcde} \).
+          </p>
+          <p class="ex">
+            マクロを定義できます（詳細は下の参考リンクをご覧ください）:
+            $$
+            \newcommand\C{{\mathbb C}}
+            \newcommand\np[2]{{#1}#2{#1}}
+            \C[y_1,\ldots,y_n]\to {\mathcal A},\quad a\mapsto\np{:}{a} \ .
+            $$
+          </p>
+          <div class="end">■</div>
+        </div>
+  
+        <br>
+        <p>
+          参考：<a href="https://genkuroki.github.io/fc2/" class="textul" target="_blank"><eng>MathJax </eng>の使い方<i class="fas fa-external-link-alt"></i></a>
+        </p>
+  
+  
+      </section>
+      
     <section>
 
       <h2 class="blue">
@@ -232,59 +287,7 @@ https://saruwakakun.com/html-css/reference/nav-drawer
 
     </section>
 
-    <section>
-
-      <h2 class="blue">
-        数式の表示
-      </h2>
-
-      <p>このウェブサイトは，数式を扱っています。
-        <br>数式の表示には <strong class="eng">MathJax</strong> を利用しています。</p>
-        <p class="eng">文字が小さすぎるなど数式がうまく表示されない場合は，<bold>ページを再読み込みすると解決する</bold>ことがあります。
-          <br>下の例で表示を確認してください。
-      </p>
-      <p>
-        <eng>MathJax</eng> では，<strong class="eng">TeX</strong>（テフ）のコマンドを用いて<eng> HTML </eng>ファイル
-        内に数式を記述します。
-        <br>数式はクライアントサイドの <strong class="eng">JavaScript</strong> によって表示されます。
-      </p>
-
-      <br>
-
-      <div class="ex">
-        <span class="ex">例</span>
-        <underline>
-          <eng>MathJax</eng>による数式の表示
-        </underline>
-
-        <p class="ex">
-          質量 \(m\) の物体に力 \(F\) をかけると，加速度 \(a\) が生じる：
-          \[
-          ma=F.\tag{1}
-          \]
-        </p>
-
-        <p class="ex">
-          太字の表示もできます： \( {abcde,}\) \( \bf{abcde}\), \( \boldsymbol{abcde} \).
-        </p>
-        <p class="ex">
-          マクロを定義できます（詳細は下の参考リンクをご覧ください）:
-          $$
-          \newcommand\C{{\mathbb C}}
-          \newcommand\np[2]{{#1}#2{#1}}
-          \C[y_1,\ldots,y_n]\to {\mathcal A},\quad a\mapsto\np{:}{a} \ .
-          $$
-        </p>
-        <div class="end">■</div>
-      </div>
-
-      <br>
-      <p>
-        参考：<a href="https://genkuroki.github.io/fc2/" class="textul" target="_blank"><eng>MathJax </eng>の使い方<i class="fas fa-external-link-alt"></i></a>
-      </p>
-
-
-    </section>
+    
   </main>
 
   <footer class="footerInner">
