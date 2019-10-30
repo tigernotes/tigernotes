@@ -25,6 +25,7 @@ body{
   font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','Noto Sans JP','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;  /* フォント */
   font-size: 17px;
   font-weight: 400;
+  background-color:white;
 }
 
 eng, .eng{
